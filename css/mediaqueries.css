@@ -1,0 +1,199 @@
+/* For Header */
+@media (max-width:1094px) {
+    #ret{
+        display: none;
+    }
+
+}
+@media (max-width:793px) {
+    #signin{
+        display: none;
+    }
+}
+@media (max-width:615px) {
+    #navbar1{
+        height:54px
+    }
+    #navbar2{
+        top:54px;
+        height: 30px;
+    }
+    #add{
+        font-size: 15px;
+    }
+    header{
+        height: 88px;
+    }
+    .amazonlogo img {
+        width: 86px;
+        height: 30px;
+        padding: 0.5vh 2vw;
+    }
+    .cartlogo img {
+        width: 40px;
+        height: 30px;
+    }
+    input{
+        height: 30px;
+    }
+    button img {
+        height: 27px;
+        width: 32px;
+    }
+
+}
+@media (max-width:529px) {
+    .cartlogo{
+        display: none;
+    }
+    #navbar1 ul{
+        display: none;
+    }
+}
+ @media (max-width:919px) {
+    #navbar2 li:nth-child(7){
+        display: none;
+    }
+
+}
+@media (max-width:743px) {
+    #navbar2 li:nth-child(6){
+        display: none;
+    }
+    #navbar2 li{
+        font-size: 1em;
+    }
+}
+@media (max-width:404px) {
+    #navbar2 li:nth-child(5){
+        display: none;
+    }
+    #navbar2 li{
+        font-size: 0.9em;
+    }
+}
+@media (max-width:288px) {
+    #navbar2 li:nth-child(4){
+        display: none;
+    }
+    #navbar2 li{
+        font-size: 0.8em;
+    }
+}
+
+/* For Slider */
+
+
+/* For Bigcard */
+
+
+@media (max-width:1449px) {
+    #bigcard4{
+        display: none;
+    }
+    
+}
+@media (max-width:1039px) {
+    #bigcard3{
+        display: none;
+    }
+    .bigcard{
+        width: 400px;
+    }
+}
+@media (max-width:664px) {
+    #bigcard1{
+        display: none;
+    }
+}
+@media screen and (max-width:319px) {
+    .bigcard-line{
+        height: 98vh;
+    }
+    .bigcard{
+        flex-direction: column;
+        height: 640px;
+    }
+    .bigcard h2{
+        text-align: center;
+    }
+    .bigcard .bigcard-item{
+        margin: 5px auto;
+    }
+    .bigcard-line .bigcard{
+        padding: 0px;
+    }
+    #bigcard2 .description{
+        margin: 0px auto;
+    }
+}
+@media screen and (max-width:242px) {
+    .bigcard h2{
+        font-size: 20px;
+    }
+    .bigcard-item img{
+        transform: scale(0.9);
+    }
+    
+    
+}
+/* For Card-line */
+
+@media screen and (max-width:1521px) {
+    .card-line{
+        overflow-x: scroll;
+    }
+    
+}
+@media screen and (max-width:800px) {
+    .slider{
+        height: 70vh;
+    }
+    .slider img{
+        height: 70vh;
+    }
+    
+}
+@media screen and (max-width:197px) {
+    .card .heading{
+        overflow-x: hidden;
+    }
+}
+@media (max-width:133px) {
+    .bigcard{
+        overflow: hidden;
+    }
+}
+/* For Footer */
+@media (max-width:665px) {
+    .foot-list{
+        font-size: 12px;
+    }
+    
+}
+@media (max-width:585px) {
+    footer li:nth-child(3){
+        display: none;
+    }   
+}
+@media (max-width:473px) {
+    footer li:nth-child(4){
+        display: none;
+    }   
+}
+@media (max-width:241px) {
+    footer li:nth-child(2){
+        display: none;
+    }   
+}
+@media (max-width:162px) {
+    #navbar2{
+        overflow: hidden;
+    }
+}
+@media (max-width:76px) {
+    *{
+        overflow-x: hidden;
+    }
+
+}
